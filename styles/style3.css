@@ -1,0 +1,83 @@
+input[type="text"] {
+  width: 100%;
+  padding: 14px 25px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(15, 14, 32);
+  transition: 1.2s;
+  color: white;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 14px 25px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea:focus {
+  background-color: rgb(15, 14, 32);
+  color: white;
+  transition: 1.2s;
+  font-weight: 700;
+  resize: none;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(15, 14, 32);
+} /* Green */
+
+.button1:hover {
+  background-color: rgb(189, 34, 94);
+  transition: 1.1s;
+}
+/***gmbar**/
+.bg-img {
+  /* The image used    background-image: url("mac2.png");*/
+  background-image: url("../images/mac/mac2.png");
+  margin-top: 30px;
+  min-height: 610px;
+  /* Center and scale the image nicely    */
+  margin-top: -10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_cont {
+  position: relative;
+  max-width: 71%;
+  padding: 16px;
+  background-color: white;
+  border-radius: 20px;
+}
+

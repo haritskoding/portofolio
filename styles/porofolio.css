@@ -1,0 +1,89 @@
+.portofolio {
+  padding: 86px 0;
+  background-color: rgb(15, 14, 32);
+  color: white;
+}
+.portofolio > menu {
+  min-height: 40px;
+  cursor: pointer;
+  color: #444;
+}
+
+.logo {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 80px;
+  float: left;
+  margin-left: 50px;
+}
+
+.portofolio > menu > ul {
+  float: left;
+  background-color: orange;
+  padding: 0.8px;
+  border-radius: 25px;
+}
+
+.portofolio > menu > ul li {
+  list-style: none;
+  display: inline-block;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 4px 18px;
+  line-height: 30px;
+  margin-right: 6px;
+}
+
+.portofolio > menu > ul li:hover,
+.active {
+  transition: 0.9s;
+  box-shadow: 0px 4px 10px 5px rgb(161, 161, 161, 0.6);
+  color: white;
+}
+
+aside {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: "Pacifico", cursive;
+}
+
+.thumb {
+  width: 29%;
+  min-width: 300px;
+  height: 400px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 18px 8px;
+  transition: 0.8s;
+  box-shadow: 0px 4px 10px 5px rgb(161, 161, 161, 0.6);
+}
+
+.thumb img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-position: top;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.thumb h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 70px;
+  margin-bottom: 19px;
+}
+
+.thumb:hover {
+  box-shadow: 5px 4px 10px rgb(161, 161, 161, 0.8);
+}
